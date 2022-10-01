@@ -1,0 +1,2 @@
+import string
+print([''.join([i,chr(ord('z')-ord(i)-1+ord('a'))]) for i in string.ascii_lowercase])
